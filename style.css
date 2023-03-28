@@ -1,0 +1,383 @@
+h1{
+  font-family: "univers", sans-serif;
+  color: white;
+}
+
+h2{
+  font-family: "univers", sans-serif;
+}
+
+p{
+  font-family: "univers", sans-serif;
+  font-size: larger;
+}
+
+.head-banner{
+  width: 100%;
+  height: 20%;
+  background-color: rgb(175, 33, 33);
+  text-align: center;
+  padding-bottom: 5px;
+}
+.head-banner>img{
+    width: 100%;
+    height: 10%;
+}
+
+.content{
+    overflow: auto;
+    border: 1px solid rgb(121, 0, 0)
+  }
+  .content div {
+    padding: 10px;
+  }
+  .content a{
+    color: darkblue;
+  }
+.nav-bar{
+  
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: rgb(175, 33, 33);
+    text-align: center;
+}
+.info{
+  margin-top: 3%;
+  width: 40%;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  float: left;
+}
+.home-pizza1>img{
+  margin-top: 3%;
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.home-pizza2>img{
+  margin-top: 20px;
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.gal-pizza1>img{
+  margin-top: 2%;
+  float: left;
+  width: 100%;
+}
+.cheese-pizza{
+  margin-top: 10px;
+  float: left;
+  margin-left: 2%;
+  width: 45%;
+  border: solid;
+  border-color: rgb(175, 33, 33);
+  padding: 9px;
+}
+
+.gal-pizza2>img{
+  float: right;
+  width: 100%;
+}
+.mushroom-pizza{
+  margin-top: 10px;
+  float: right;
+  margin-left: 2%;
+  width: 45%;
+  border: solid;
+  border-color: rgb(175, 33, 33);
+  padding: 9px;
+  padding-bottom: 16px;
+}
+
+.footer{
+  width: 100%;
+  height: 5%;
+  background-color: rgb(175, 33, 33);
+  text-align: center;
+  padding-bottom: 0;
+  bottom: 0;
+  margin-top: -60%;
+  position: fixed;
+  color: white;
+  display: block;
+}
+
+.order-footer{
+  width: 100%;
+  height: 5%;
+  background-color: rgb(175, 33, 33);
+  text-align: center;
+  padding-bottom: 0;
+  position: absolute;
+  color: white;
+  display: block;
+}
+
+.gal-footer{
+  width: 100%;
+  height: 5%;
+  background-color: rgb(175, 33, 33);
+  text-align: center;
+  top: 180%;
+  position: absolute;
+  color: white;
+  display: block;
+}
+.contact-footer{
+  width: 100%;
+  height: 5%;
+  background-color: rgb(175, 33, 33);
+  text-align: center;
+  top: 150%;
+  position: absolute;
+  color: white;
+  display: block;
+}
+.index-footer{
+  width: 100%;
+  height: 5%;
+  background-color: rgb(175, 33, 33);
+  text-align: center;
+  top: 180%;
+  position: absolute;
+  color: white;
+  display: block;
+}
+.about-footer{
+  width: 100%;
+  height: 5%;
+  background-color: rgb(175, 33, 33);
+  text-align: center;
+  top: 170%;
+  position: absolute;
+  color: white;
+  display: block;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+nav ul ul {
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+nav ul li {
+  float: left;
+  position: relative;
+  list-style-type: none;
+}
+nav ul li:hover {
+  opacity: 0.9;
+}
+nav ul li:hover a {
+  color: #fff;
+}
+nav ul li a {
+  display: block;
+  padding: 30px 50px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgb(19, 19, 122);
+  font-family: sans-serif;
+}
+nav ul ul {
+  background: #5f6975;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+nav ul ul li {
+  float: none;
+  position: relative;
+}
+nav ul ul li a {
+  padding: 15px 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+nav ul ul li a:hover {
+  opacity: 0.6;
+}
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  padding: 30px;
+  margin-bottom: 10%;
+}
+
+label{
+  font-family: "univers", sans-serif;
+  font-weight: strong;
+}
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: rgb(175, 33, 33);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "univers", sans-serif;
+}
+
+.wrapper .form{
+  width: 100%;
+}
+
+.wrapper .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .form .inputfield label{
+   width: 200px;
+   color: black;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .inputfield .textarea{
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapper .form .inputfield .custom_select{
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.wrapper .form .inputfield .custom_select:before{
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+
+.wrapper .form .inputfield .custom_select select{
+  -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .textarea:focus,
+.wrapper .form .inputfield .custom_select select:focus{
+  border: 1px solid rgb(175, 33, 33);
+}
+
+.wrapper .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+.wrapper .form .inputfield .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.wrapper .form .inputfield .check input[type="checkbox"]{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wrapper .form .inputfield .check .checkmark{
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgb(175, 33, 33);
+  display: block;
+  position: relative;
+}
+.wrapper .form .inputfield .check .checkmark:before{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+  background: #fec107;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+  display: block;
+}
+
+.wrapper .form .inputfield .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  rgb(175, 33, 33);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .form .inputfield .btn:hover{
+  background: rgb(175, 33, 33);
+}
+
+.wrapper .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
